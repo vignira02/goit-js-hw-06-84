@@ -18,7 +18,7 @@ function onSubmit(event) {
       password: password.value,
     }
 
-    console.dir(userData)
+    console.log(userData)
 
     event.target.reset()
   }
